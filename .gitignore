@@ -1,0 +1,52 @@
+# Ignore Visual Studio files
+.vs/
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+TestResults/
+
+# Ignore Resharper files
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore logs and other temporary files
+*.log
+*.vspscc
+*.vssscc
+*.scc
+*.swp
+*~.nib
+*.swp
+*.lock
+*.tmp
+*.bak
+*.user
+
+# Ignore OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Ignore .NET Core artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
