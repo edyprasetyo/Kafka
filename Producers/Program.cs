@@ -8,7 +8,7 @@ using (var producer = new ProducerBuilder<Null, string>(config).Build())
 {
     try
     {
-        var dr = await producer.ProduceAsync("my-topic", new Message<Null, string> { Value = "hello kocik" });
+        var dr = await producer.ProduceAsync("my-topic", new Message<Null, string> { Value = "hello kociks" });
         Console.WriteLine($"Delivered '{dr.Value}' to '{dr.TopicPartitionOffset}'");
     }
     catch (ProduceException<Null, string> e)
